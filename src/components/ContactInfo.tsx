@@ -64,7 +64,7 @@ const ContactInfo = () => {
         <div className="text-center">
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <a 
-              href="https://www.ubereats.com" 
+              href="https://www.ubereats.com/store/hyderabad-bawarchi-biryani/aNC3vvSJR4aVZf5nt21RXg?srsltid=AfmBOooXPeVARGt1di8NlL7uEOr4cqT60X3AYBByqRHVmdDD2OR9CVvC" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-black text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-black/80 transition-colors flex items-center gap-3 justify-center"
@@ -73,7 +73,7 @@ const ContactInfo = () => {
               Order on UberEats
             </a>
             <a 
-              href="https://order.online" 
+              href="https://order.online/store/hyd-bawarchi-biryani-woodbridge-township-1250843/?hideModal=true&pickup=true&redirected=true" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-gradient-primary text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-restaurant-purple/90 transition-colors flex items-center gap-3 justify-center"
