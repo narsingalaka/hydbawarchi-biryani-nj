@@ -8,35 +8,55 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 20 14% 98%;
+    --foreground: 24 10% 10%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 24 10% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 24 10% 10%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 285 89% 40%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 39 77% 58%;
+    --secondary-foreground: 24 10% 10%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 39 30% 95%;
+    --muted-foreground: 25 8% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 285 30% 90%;
+    --accent-foreground: 285 89% 30%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 20 6% 90%;
+    --input: 20 6% 90%;
+    --ring: 285 89% 40%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Restaurant specific colors */
+    --restaurant-purple: 285 89% 40%;
+    --restaurant-purple-light: 285 30% 90%;
+    --restaurant-gold: 39 77% 58%;
+    --restaurant-gold-light: 39 30% 95%;
+    --restaurant-cream: 20 14% 98%;
+    --restaurant-dark: 24 10% 10%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(285 89% 40%), hsl(285 89% 50%));
+    --gradient-secondary: linear-gradient(135deg, hsl(39 77% 58%), hsl(39 77% 68%));
+    --gradient-hero: linear-gradient(135deg, hsl(285 89% 40%) 0%, hsl(285 60% 30%) 100%);
+
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(285 89% 40% / 0.3);
+    --shadow-card: 0 4px 20px -4px hsl(285 30% 20% / 0.15);
+
+    /* Animation */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
