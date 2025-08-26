@@ -47,9 +47,24 @@ const FeaturedDishes = () => {
                   <span className="text-lg font-semibold text-restaurant-purple">{dish.price}</span>
                 </div>
                 <p className="text-muted-foreground mb-4 leading-relaxed">{dish.description}</p>
-                <Button className="bg-gradient-secondary hover:bg-restaurant-gold/90 text-restaurant-dark font-semibold w-full">
-                  Add to Order
-                </Button>
+                <div className="flex gap-2">
+                  <a 
+                    href="https://www.ubereats.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bg-black text-white px-4 py-2 rounded font-medium text-sm hover:bg-black/80 transition-colors flex-1 text-center"
+                  >
+                    UberEats
+                  </a>
+                  <a 
+                    href="https://order.online" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bg-restaurant-purple text-white px-4 py-2 rounded font-medium text-sm hover:bg-restaurant-purple/90 transition-colors flex-1 text-center"
+                  >
+                    Order Online
+                  </a>
+                </div>
               </CardContent>
             </Card>
           ))}

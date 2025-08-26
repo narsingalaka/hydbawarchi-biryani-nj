@@ -62,12 +62,26 @@ const ContactInfo = () => {
         </div>
 
         <div className="text-center">
-          <Button 
-            size="lg" 
-            className="bg-gradient-primary hover:bg-restaurant-purple/90 text-lg px-12 py-4 shadow-elegant"
-          >
-            Order Online Now
-          </Button>
+          <div className="flex flex-col sm:flex-row justify-center gap-6">
+            <a 
+              href="https://www.ubereats.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-black text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-black/80 transition-colors flex items-center gap-3 justify-center"
+            >
+              <span className="text-2xl">🍽️</span>
+              Order on UberEats
+            </a>
+            <a 
+              href="https://order.online" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-gradient-primary text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-restaurant-purple/90 transition-colors flex items-center gap-3 justify-center"
+            >
+              <span className="text-2xl">📱</span>
+              Order Online
+            </a>
+          </div>
         </div>
       </div>
     </section>
