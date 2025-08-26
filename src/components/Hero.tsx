@@ -39,14 +39,7 @@ const Hero = () => {
           </div>
           <div className="text-center">
             <p className="text-sm uppercase tracking-wide text-white/80 mb-1">Visit Us</p>
-            <a 
-              href="https://maps.google.com?q=1585+Oak+Tree+Road,+Iselin,+NJ" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xl font-bold text-white hover:text-restaurant-gold transition-colors"
-            >
-              1585 OAK TREE RD, ISELIN, NJ
-            </a>
+            <p className="text-xl font-bold">1585 OAK TREE RD, ISELINE, NJ</p>
           </div>
         </div>
 
