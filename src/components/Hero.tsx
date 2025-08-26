@@ -30,7 +30,12 @@ const Hero = () => {
         <div className="hidden lg:flex justify-center items-center gap-12 mb-8 text-white">
           <div className="text-center">
             <p className="text-sm uppercase tracking-wide text-white/80 mb-1">Call Us</p>
-            <p className="text-xl font-bold">732 379 4679</p>
+            <a 
+              href="tel:+17323794679" 
+              className="text-xl font-bold text-white hover:text-restaurant-gold transition-colors"
+            >
+              (732) 379-4679
+            </a>
           </div>
           <div className="text-center">
             <p className="text-sm uppercase tracking-wide text-white/80 mb-1">Visit Us</p>

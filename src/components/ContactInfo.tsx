@@ -23,7 +23,12 @@ const ContactInfo = () => {
               </div>
               <h4 className="font-semibold text-restaurant-dark mb-2">Call Us</h4>
               <p className="text-muted-foreground text-sm mb-3">Ready to take your order</p>
-              <p className="font-bold text-restaurant-purple">732 379 4679</p>
+              <a 
+                href="tel:+17323794679" 
+                className="font-bold text-restaurant-purple hover:text-restaurant-purple/80 transition-colors"
+              >
+                (732) 379-4679
+              </a>
             </CardContent>
           </Card>
 
