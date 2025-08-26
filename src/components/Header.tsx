@@ -34,7 +34,14 @@ const Header = () => {
             </div>
             <div className="flex items-center gap-1">
               <MapPin className="h-4 w-4 text-restaurant-purple" />
-              <span className="font-medium text-restaurant-dark">1585 OAK TREE RD, ISELINE, NJ</span>
+              <a 
+                href="https://maps.google.com?q=1585+Oak+Tree+Road,+Iselin,+NJ" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-restaurant-dark hover:text-restaurant-purple transition-colors"
+              >
+                1585 OAK TREE RD, ISELIN, NJ
+              </a>
             </div>
           </div>
         </div>

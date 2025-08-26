@@ -39,7 +39,14 @@ const ContactInfo = () => {
               </div>
               <h4 className="font-semibold text-restaurant-dark mb-2">Location</h4>
               <p className="text-muted-foreground text-sm mb-3">Easy to find on Oak Tree Road</p>
-              <p className="font-bold text-restaurant-purple text-sm">1585 OAK TREE RD<br />ISELINE, NJ</p>
+              <a 
+                href="https://maps.google.com?q=1585+Oak+Tree+Road,+Iselin,+NJ" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-restaurant-purple text-sm hover:text-restaurant-purple/80 transition-colors"
+              >
+                1585 OAK TREE RD<br />ISELIN, NJ
+              </a>
             </CardContent>
           </Card>
 
