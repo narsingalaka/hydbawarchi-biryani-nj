@@ -52,7 +52,7 @@ const FeaturedDishes = () => {
                     href="https://www.ubereats.com/store/hyderabad-bawarchi-biryani/aNC3vvSJR4aVZf5nt21RXg?srsltid=AfmBOooXPeVARGt1di8NlL7uEOr4cqT60X3AYBByqRHVmdDD2OR9CVvC" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="bg-black text-white px-3 py-2 rounded font-medium text-sm hover:bg-black/80 transition-colors text-center"
+                    className="bg-gray-100 text-gray-800 px-3 py-2 rounded font-medium text-sm hover:bg-gray-200 transition-colors text-center border border-gray-300"
                   >
                     UberEats
                   </a>
@@ -60,7 +60,7 @@ const FeaturedDishes = () => {
                     href="https://www.doordash.com/store/hyd-bawarchi-biryani-woodbridge-township-1250843/1819486/?srsltid=AfmBOopvN_M7MnsfNuP56d1gikQDxSZrlzzMccPBxvrmWYwRpRFwpMNL" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="bg-red-600 text-white px-3 py-2 rounded font-medium text-sm hover:bg-red-700 transition-colors text-center"
+                    className="bg-red-50 text-red-700 px-3 py-2 rounded font-medium text-sm hover:bg-red-100 transition-colors text-center border border-red-200"
                   >
                     DoorDash
                   </a>
@@ -68,7 +68,7 @@ const FeaturedDishes = () => {
                     href="https://www.grubhub.com/restaurant/hyd-bawarchi-biryani-1585-oak-tree-rd-iselin/2397796" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="bg-orange-600 text-white px-3 py-2 rounded font-medium text-sm hover:bg-orange-700 transition-colors text-center"
+                    className="bg-orange-50 text-orange-700 px-3 py-2 rounded font-medium text-sm hover:bg-orange-100 transition-colors text-center border border-orange-200"
                   >
                     GrubHub
                   </a>
@@ -76,7 +76,7 @@ const FeaturedDishes = () => {
                     href="https://order.online/store/hyd-bawarchi-biryani-woodbridge-township-1250843/?hideModal=true&pickup=true&redirected=true" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="bg-restaurant-primary text-white px-3 py-2 rounded font-medium text-sm hover:bg-restaurant-primary/90 transition-colors text-center"
+                    className="bg-restaurant-primary-light text-restaurant-primary px-3 py-2 rounded font-medium text-sm hover:bg-restaurant-primary/20 transition-colors text-center border border-restaurant-primary/30"
                   >
                     Order Online
                   </a>
