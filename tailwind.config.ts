@@ -53,8 +53,10 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				restaurant: {
-					purple: 'hsl(var(--restaurant-purple))',
+					purple: 'hsl(var(--restaurant-purple))', /* Keep for logo */
 					'purple-light': 'hsl(var(--restaurant-purple-light))',
+					primary: 'hsl(var(--restaurant-primary))',
+					'primary-light': 'hsl(var(--restaurant-primary-light))',
 					gold: 'hsl(var(--restaurant-gold))',
 					'gold-light': 'hsl(var(--restaurant-gold-light))',
 					cream: 'hsl(var(--restaurant-cream))',

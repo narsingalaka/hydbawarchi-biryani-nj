@@ -32,7 +32,7 @@ const Hero = () => {
             <p className="text-sm uppercase tracking-wide text-white/80 mb-1">Call Us</p>
             <a 
               href="tel:+17323794679" 
-              className="text-xl font-bold text-white hover:text-restaurant-gold transition-colors"
+            className="text-xl font-bold text-white hover:text-restaurant-gold transition-colors"
             >
               (732) 379-4679
             </a>
@@ -51,23 +51,41 @@ const Hero = () => {
         </div>
 
         {/* Online Ordering Links */}
-        <div className="flex flex-col sm:flex-row justify-center gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
           <a 
             href="https://www.ubereats.com/store/hyderabad-bawarchi-biryani/aNC3vvSJR4aVZf5nt21RXg?srsltid=AfmBOooXPeVARGt1di8NlL7uEOr4cqT60X3AYBByqRHVmdDD2OR9CVvC" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="bg-black text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-black/80 transition-colors flex items-center gap-3 justify-center"
+            className="bg-black text-white px-6 py-4 rounded-lg font-semibold text-lg hover:bg-black/80 transition-colors flex items-center gap-2 justify-center"
           >
-            <span className="text-2xl">🍽️</span>
-            Order on UberEats
+            <span className="text-xl">🍽️</span>
+            UberEats
+          </a>
+          <a 
+            href="https://www.doordash.com/store/hyd-bawarchi-biryani-woodbridge-township-1250843/1819486/?srsltid=AfmBOopvN_M7MnsfNuP56d1gikQDxSZrlzzMccPBxvrmWYwRpRFwpMNL" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-red-600 text-white px-6 py-4 rounded-lg font-semibold text-lg hover:bg-red-700 transition-colors flex items-center gap-2 justify-center"
+          >
+            <span className="text-xl">🚗</span>
+            DoorDash
+          </a>
+          <a 
+            href="https://www.grubhub.com/restaurant/hyd-bawarchi-biryani-1585-oak-tree-rd-iselin/2397796" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-orange-600 text-white px-6 py-4 rounded-lg font-semibold text-lg hover:bg-orange-700 transition-colors flex items-center gap-2 justify-center"
+          >
+            <span className="text-xl">🥡</span>
+            GrubHub
           </a>
           <a 
             href="https://order.online/store/hyd-bawarchi-biryani-woodbridge-township-1250843/?hideModal=true&pickup=true&redirected=true" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="bg-restaurant-purple text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-restaurant-purple/90 transition-colors flex items-center gap-3 justify-center"
+            className="bg-restaurant-primary text-white px-6 py-4 rounded-lg font-semibold text-lg hover:bg-restaurant-primary/90 transition-colors flex items-center gap-2 justify-center"
           >
-            <span className="text-2xl">📱</span>
+            <span className="text-xl">📱</span>
             Order Online
           </a>
         </div>
